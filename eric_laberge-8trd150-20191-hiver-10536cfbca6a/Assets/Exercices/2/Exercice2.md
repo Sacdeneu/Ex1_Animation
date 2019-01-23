@@ -11,9 +11,12 @@ Un composant `CustomMatrices` a été ajouté à la caméra *Exercice2/Camera* d
 ## 2.1
 
 Configurez la résolution du jeu pour être en ratio 16:9. Lancez le jeu à l'aide de la matrice *PerspectiveMatrix*. Modifiez le ratio pour une configuration 4:3. Que constatez-vous?
-
+**L'image est déformée, les assets affichés à l'écran ont l'air moins large et la première valeur de la première colonne de la matrice est modifiée**
 Remarquez les valeurs de la diagonale de la matrice. Dupliquez l'objet de matrice et paramétrez manuellement les valeurs pour obtenir un résultat satisfaisant. Quelle matrice avez-vous obtenu?
-
+**1,9	0,00000	0,00000	0,00000
+0,00000	3	0,00000	0,00000
+0,00000	0,00000	-1,0006	-0,60018
+0,00000	0,00000	-1,00000	0,00000**
 ## 2.2
 
 Faites le même exercice que précédemment, mais à l'aide de la matrice *OrthoMatrix*.
